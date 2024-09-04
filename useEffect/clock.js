@@ -11,7 +11,7 @@ function App(){
         return()=>{
             clearInterval(interval)
         }
-    },[])
+    },[]) //runs only once—after the initial render
   return (
       <div>
         <h1>Clock</h1>
