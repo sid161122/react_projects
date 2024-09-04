@@ -16,7 +16,12 @@ function App(){
     }
     useEffect(()=>{
         fetchEchangeRate()
-    },[fromCurrency,toCurrency,amount])
+    },[fromCurrency,toCurrency,amount]) 
+//Runs:
+After the initial render.
+Every time the value of fromCurrency,toCurrency,amount changes.
+
+
     function handleAmount(e){
         setAmount(e.target.value)
     }
