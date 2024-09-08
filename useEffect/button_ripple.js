@@ -20,7 +20,7 @@ function App() {
     },[cord])
 
     useEffect(()=>{
-        if(!isRipple){ //true
+        if(!isRipple){ //isRipple=false ->! -> true
             setCord({x:-1,y:-1})
         }
     },[isRipple])
